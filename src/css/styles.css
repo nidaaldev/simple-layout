@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: red;
+}
+header h1 {
+  font-size: 30px;
+}
+
+.main {
+  background: yellow;
+  padding: 30px;
+  width: 70%;
+}
+.main h2 {
+  margin-bottom: 20px;
+}
+.main p {
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+aside {
+  width: 30%;
+  background: blue;
+}
+aside h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+aside a {
+  display: block;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+aside a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  background: orange;
+  padding: 10px;
+}
+footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
