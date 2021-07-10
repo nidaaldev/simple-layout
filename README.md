@@ -1,3 +1,3 @@
-# Simple HTML & CSS layout
+# Simple HTML & SASS layout
 
 <img src="img/layout.png">
